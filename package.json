@@ -17,27 +17,51 @@
       {
         "command": "extension.openGhostty",
         "title": "Open Ghostty Here"
+      },
+      {
+        "command": "extension.openGhosttyNewWindow",
+        "title": "Open in new Ghostty window"
       }
     ],
     "menus": {
       "explorer/context": [
         {
-          "command": "extension.openGhostty"
+          "command": "extension.openGhostty",
+          "group": "ghostty@1"
+        },
+        {
+          "command": "extension.openGhosttyNewWindow",
+          "group": "ghostty@2"
         }
       ],
       "editor/context": [
         {
-          "command": "extension.openGhostty"
+          "command": "extension.openGhostty",
+          "group": "ghostty@1"
+        },
+        {
+          "command": "extension.openGhosttyNewWindow",
+          "group": "ghostty@2"
         }
       ],
       "editor/title": [
         {
-          "command": "extension.openGhostty"
+          "command": "extension.openGhostty",
+          "group": "ghostty@1"
+        },
+        {
+          "command": "extension.openGhosttyNewWindow",
+          "group": "ghostty@2"
         }
       ],
       "editor/title/context": [
         {
-          "command": "extension.openGhostty"
+          "command": "extension.openGhostty",
+          "group": "ghostty@1"
+        },
+        {
+          "command": "extension.openGhosttyNewWindow",
+          "group": "ghostty@2"
         }
       ]
     }
